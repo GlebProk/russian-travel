@@ -20,28 +20,28 @@
   z-index: 1;
 }
 
-@media all and (min-width : 1280px) {
+@media all and (min-width: 1280px) {
   .cover__subtitle {
     margin-top: 429px;
   }
 
 }
 
-@media all and (max-width : 896px) {
+@media all and (max-width: 896px) {
   .cover__subtitle {
     margin-top: 299px;
   }
 
 }
 
-@media all and (max-width : 656px) {
+@media all and (max-width: 656px) {
   .cover__subtitle {
     margin-top: 219px;
   }
 
 }
 
-@media all and (max-width : 544px) {
+@media all and (max-width: 544px) {
   .cover__subtitle {
     margin-top: 169px;
     font-size: 16px;
@@ -51,7 +51,7 @@
 
 }
 
-@media all and (max-width : 425px) {
+@media all and (max-width: 425px) {
   .cover__subtitle {
     margin-top: 119px;
     font-size: 14px;

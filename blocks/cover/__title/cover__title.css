@@ -20,13 +20,13 @@
   z-index: 1;
 }
 
-@media all and (min-width : 1280px) {
+@media all and (min-width: 1280px) {
   .cover__title {
     margin-top: 245px;
   }
 }
 
-@media all and (max-width : 896px) {
+@media all and (max-width: 896px) {
   .cover__title {
     margin-top: 115px;
   }

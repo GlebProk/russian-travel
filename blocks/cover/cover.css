@@ -10,7 +10,7 @@
   z-index: 0;
 }
 
-@media all and (min-width : 1025px) {
+@media all and (min-width: 1025px) {
   .cover {
       width: 90%;
   }

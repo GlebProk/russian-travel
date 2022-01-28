@@ -8,14 +8,14 @@
   box-sizing: border-box;
 }
 
-@media all and (max-width : 1024px) {
+@media all and (max-width: 1024px) {
   .places {
       width: 90%;
   }
 
 }
 
-@media all and (max-width : 425px) {
+@media all and (max-width: 425px) {
   .places{
      width: 100%;
   }

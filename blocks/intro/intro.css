@@ -9,21 +9,21 @@
   justify-content: space-between;
 }
 
-@media all and (max-width : 1024px)  {
+@media all and (max-width: 1024px)  {
   .intro {
     width: 90%;
   }
 
 }
 
-@media all and (max-width : 768px)  {
+@media all and (max-width: 768px)  {
   .intro {
     padding-top: 88px;
   }
 
 }
 
-@media all and (max-width : 425px)  {
+@media all and (max-width: 425px)  {
   .intro {
     padding-top: 64px;
   }

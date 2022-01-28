@@ -12,13 +12,13 @@
   color: #AAAAAA;
 }
 
-@media all and (max-width : 768px) {
+@media all and (max-width: 768px) {
   .place__url-heading {
     line-height: 12px;
   }
 }
 
-@media all and (max-width : 544px) {
+@media all and (max-width: 544px) {
   .place__url-heading {
     width: 90%;
     margin: 0 auto 12px;

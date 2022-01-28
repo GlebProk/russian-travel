@@ -16,7 +16,7 @@
   opacity: .8;
 }
 
-@media all and (max-width : 544px) {
+@media all and (max-width: 544px) {
   .place__url {
     width: 90%;
     margin: auto;

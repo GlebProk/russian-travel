@@ -20,7 +20,7 @@
   opacity: .8;
 }
 
-@media all and (max-width : 425px) {
+@media all and (max-width: 425px) {
   .footer__link {
     display: block;
     font-size: 24px;

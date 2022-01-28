@@ -16,7 +16,7 @@
   box-sizing: border-box;
 }
 
-@media all and (max-width : 1024px)  {
+@media all and (max-width: 1024px)  {
   .photo-grid {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -25,7 +25,7 @@
 
 }
 
-@media all and (max-width : 768px)  {
+@media all and (max-width: 768px)  {
   .photo-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -33,7 +33,7 @@
 
 }
 
-@media all and (max-width : 544px)  {
+@media all and (max-width: 544px)  {
   .photo-grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

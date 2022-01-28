@@ -10,7 +10,7 @@
   flex-wrap: wrap;
 }
 
-@media all and (max-width : 425px) {
+@media all and (max-width: 425px) {
   .footer__links {
     align-items: flex-start;
     flex-direction: column;
