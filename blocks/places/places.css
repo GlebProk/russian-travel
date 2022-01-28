@@ -1,0 +1,23 @@
+.places{
+  width: 80%;
+  margin: auto;
+  padding: 0;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media all and (max-width : 1024px) {
+  .places {
+      width: 90%;
+  }
+
+}
+
+@media all and (max-width : 425px) {
+  .places{
+     width: 100%;
+  }
+
+}

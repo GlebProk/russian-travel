@@ -1,0 +1,22 @@
+.cover {
+  width: 100%;
+
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+
+  display: flex;
+
+  z-index: 0;
+}
+
+@media all and (min-width : 1025px) {
+  .cover {
+      width: 90%;
+  }
+
+}
+
+
+
+

@@ -1,0 +1,31 @@
+.intro {
+  width: 80%;
+  position: relative;
+  margin: auto;
+  padding-top: 92px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media all and (max-width : 1024px)  {
+  .intro {
+    width: 90%;
+  }
+
+}
+
+@media all and (max-width : 768px)  {
+  .intro {
+    padding-top: 88px;
+  }
+
+}
+
+@media all and (max-width : 425px)  {
+  .intro {
+    padding-top: 64px;
+  }
+
+}

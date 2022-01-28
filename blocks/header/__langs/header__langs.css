@@ -1,0 +1,10 @@
+.header__langs {
+  width: 68px;
+  margin-top: 18px;
+  margin-bottom: 6px;
+  padding: 0;
+  list-style-type: none;
+
+  display: flex;
+  justify-content: space-between;
+}

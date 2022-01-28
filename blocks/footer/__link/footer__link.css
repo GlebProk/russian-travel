@@ -1,0 +1,31 @@
+.footer__link {
+  position: relative;
+  margin-right: 18px;
+  margin-bottom: 100px;
+  padding: 0;
+  text-decoration: none;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+  color: #FFFFFF;
+
+  transition: 1s;
+}
+
+.footer__link:hover {
+  opacity: .8;
+}
+
+@media all and (max-width : 425px) {
+  .footer__link {
+    display: block;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+
+}

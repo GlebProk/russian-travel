@@ -1,0 +1,15 @@
+.header__lang {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1;
+  text-align: right;
+  color: #FFFFFF;
+  text-decoration: inherit;
+  transition: 1s;
+}
+
+.header__lang:hover {
+  opacity: .8;
+}
