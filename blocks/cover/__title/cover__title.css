@@ -32,13 +32,13 @@
   }
 }
 
-@media all and (max-width : 656px) {
+@media all and (max-width: 656px) {
   .cover__title {
     margin-top: 33px;
   }
 }
 
-@media all and (max-width : 544px) {
+@media all and (max-width: 544px) {
   .cover__title {
     font-size: 52px;
     line-height: 56px;
@@ -46,7 +46,7 @@
   }
 }
 
-@media all and (max-width : 425px) {
+@media all and (max-width: 425px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;

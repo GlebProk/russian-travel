@@ -10,7 +10,7 @@
   color: #FFFFFF;
 }
 
-@media all and (max-width : 896px) {
+@media all and (max-width: 896px) {
   .place__title {
     font-size: 57px;
     line-height: 56px;
