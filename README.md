@@ -9,4 +9,6 @@
 4. Подключены стильные шрифты Inter;
 5. Файловая структура создана по БЭМ (Nested).
 
+Ссылка на готовую страницу: https://glebprok.github.io/russian-travel/index.html
+
 ## Дальше - Javascript!
