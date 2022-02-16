@@ -1,14 +1,10 @@
 .cover__subtitle {
+  position: relative;
   max-width: 360px;
-  margin: 379px auto 195px auto;
+  margin: 0 auto 245px auto;
   padding: 0;
 
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -20,30 +16,20 @@
   z-index: 1;
 }
 
-@media all and (min-width: 1280px) {
+@media all and (max-width: 1024px) {
   .cover__subtitle {
-    margin-top: 429px;
+    margin: 0 auto 195px auto;
   }
-
 }
 
-@media all and (max-width: 896px) {
+@media all and (max-width: 768px) {
   .cover__subtitle {
-    margin-top: 299px;
+    margin: 0 auto 115px auto;
   }
-
-}
-
-@media all and (max-width: 656px) {
-  .cover__subtitle {
-    margin-top: 219px;
-  }
-
 }
 
 @media all and (max-width: 544px) {
   .cover__subtitle {
-    margin-top: 169px;
     font-size: 16px;
     line-height: 19px;
     /* or 114% */
@@ -53,12 +39,10 @@
 
 @media all and (max-width: 425px) {
   .cover__subtitle {
-    margin-top: 119px;
+    max-width: 288px;
+    margin: 0 auto 33px auto;
     font-size: 14px;
     line-height: 16px;
     /* or 114% */
   }
-
 }
-
-

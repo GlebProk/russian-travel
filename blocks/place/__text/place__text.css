@@ -4,10 +4,4 @@
   padding: 0;
 }
 
-@media all and (max-width: 425px) {
-  .place__text {
-     width: 90%;
-     margin: 24px auto 0px;
-  }
 
-}

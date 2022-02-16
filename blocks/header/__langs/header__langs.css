@@ -1,5 +1,5 @@
 .header__langs {
-  width: 68px;
+  width: 77px;
   margin-top: 18px;
   margin-bottom: 6px;
   padding: 0;
@@ -7,4 +7,10 @@
 
   display: flex;
   justify-content: space-between;
+}
+
+@media all and (max-width: 425px) {
+  .header__langs {
+    width: 62px;
+  }
 }

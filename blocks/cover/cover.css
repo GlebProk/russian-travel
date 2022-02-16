@@ -1,7 +1,6 @@
 .cover {
-  width: 100%;
-
   position: relative;
+  max-width: 1184px;
   margin: 0 auto;
   padding: 0;
 
@@ -10,13 +9,9 @@
   z-index: 0;
 }
 
-@media all and (min-width: 1025px) {
+@media all and (max-width: 1024px) {
   .cover {
-      width: 90%;
+      width: 100%;
   }
-
 }
-
-
-
 

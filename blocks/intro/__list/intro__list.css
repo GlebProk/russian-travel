@@ -4,11 +4,17 @@
   padding-left: 0;
   list-style-type: none;
 
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 18px;
   /* or 150% */
   color: #FFFFFF;
+}
+
+@media all and (max-width: 768px) {
+  .intro__list {
+    max-width: 720px;
+  }
 }

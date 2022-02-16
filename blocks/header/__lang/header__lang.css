@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 1;
+  line-height: 28px;
   text-align: right;
   color: #FFFFFF;
   text-decoration: inherit;
@@ -12,4 +12,11 @@
 
 .header__lang:hover {
   opacity: .8;
+}
+
+@media all and (max-width: 425px) {
+  .header__lang {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
