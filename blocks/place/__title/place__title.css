@@ -1,8 +1,7 @@
 .place__title {
   margin: 0;
   padding: 0;
-  display: flex;
-  align-items: flex-end;
+
 
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -21,8 +20,8 @@
 
 @media all and (max-width: 769px) {
   .place__title {
-    font-size: 42px;
-    line-height: 46px;
+    font-size: 44px;
+    line-height: 110%;
   }
 }
 
@@ -30,6 +29,14 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .place__title {
+    width: 288px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

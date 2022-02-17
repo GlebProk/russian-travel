@@ -15,6 +15,10 @@
   box-sizing: border-box;
 }
 
+.place:last-child {
+  margin-bottom: 0;
+}
+
 @media all and (max-width: 1024px) {
   .place {
     grid-template-columns: calc(50% - 16px) fit-content(50%);

@@ -6,3 +6,11 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
+@media all and (max-width: 425px) {
+  .place__website {
+    width: 288px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
